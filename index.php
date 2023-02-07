@@ -27,8 +27,6 @@
             </div>
             <div class="col-4 .col-sm-4">
                 <form action="securité/login.php" method="post">
-                    <p>Contant de vous revoir!</p>
-                    <p>Connectez-vous afin d' y accèder</p>
                     <label class="identification" for="">Identification</label><br>
                     <?php if (isset($_GET['error'])) { ?>
                     <p class="error">
